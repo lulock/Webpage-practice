@@ -4,7 +4,9 @@ $.ajax({
 	url:'http://api.tumblr.com/v2/blog/leilascollection.tumblr.com/posts/photo',
 	method: 'GET',
 	data: 
-	{jsonp: 'getPhotoLink'},
+	{
+		api_key: 'YeTpPVFopzz4IgtilVd3RMT3RIOlvHF3kvNAO3NA44WLJjFziV',
+		jsonp: 'getPhotoLink'},
 	dataType: 'jsonp'
 });
 

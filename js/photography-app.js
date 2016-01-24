@@ -1,25 +1,14 @@
 var images = [];
 
-// Authenticate via OAuth
-var tumblr = require('tumblr.js');
-var client = tumblr.createClient({
-  consumer_key: 'YeTpPVFopzz4IgtilVd3RMT3RIOlvHF3kvNAO3NA44WLJjFziV',
-  consumer_secret: 'i3aD2zDoobUsebGrh4ZCT96P9Y4mcd8eAhdghYMaSlKRB11eRE',
-  token: 'f1WF5OsAwM1DdTkiJbyHoJDp0oshvucvEDXPYf5PejFIBwMCYK',
-  token_secret: 'ErytSXrDIWE6c9U4sr8hblVej8g97XAUvTEYyD9OyAb3iP0jUl'
-});
-
-// Make the request
-client.userInfo(function () {
-    $.ajax({
+$.ajax({
 	url:'http://api.tumblr.com/v2/blog/leilascollection.tumblr.com/posts/photo',
 	method: 'GET',
 	data: 
 	{
+		api_key: 'YeTpPVFopzz4IgtilVd3RMT3RIOlvHF3kvNAO3NA44WLJjFziV',
 		jsonp: 'getPhotoLink'},
 	dataType: 'jsonp'
 });
-
 
 function getPhotoLink(response){
 	var posts = response.response.posts;
