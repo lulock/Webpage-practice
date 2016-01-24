@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome!</title>
+	<link rel="stylesheet" href="js/animsition/animsition.min.css" type="text/css" media="screen" title="no title" charset="utf-8">	
+	<link rel="stylesheet" href="slick/slick.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="slick/slick-theme.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+
+</head>
+<body class='website animsition'>
+	<div class="nav">
+	<ul>
+		<li><a href="./home.html" class="selected">Home</a></li>
+		<li><a href="./about.html">About</a></li>
+		<li><a href="./contact.html">Contact</a></li>
+		<li><a href="./photography.html">Photography</a></li>
+		<li><a href="./faq.html">FAQs</a></li>
+	</ul>	
+	</div>
+	<h1>Home</h1>
+	<p>Lulock's World.</p>
+	<!-- Carousel goes here -->
+	<div class="slides">
+		<div>Slide 1</div>
+		<div>Slide 2</div>		
+		<div>Slide 3</div>
+		<div>Slide 4</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/select-app.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/animsition/jquery.animsition.min.js"></script>
+	<script src="sticky/jquery.sticky.js" type="text/javascript" charset="utf-8"></script>
+	<script src="slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+<script>
+	$('.slides').slick({fade:true, autoplay:true, autoplaySpeed:2000, dots:true, arrows:false });
+</script>
+</body>
+</html>

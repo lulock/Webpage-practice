@@ -1,0 +1,339 @@
+html,
+header,
+body,
+footer
+{
+    font-family: sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: 100%;
+
+    text-align: center;
+
+    background: #2f558e url(../img/universe.png) repeat 0 0;
+}
+
+.enter
+{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+
+    width: 480px;
+    margin: -40px -20px;
+    padding: 40px 20px;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: #1d3c6a;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: #c0c0c0;
+}
+
+.nav
+{
+    z-index: 1000;
+
+    height: 60px;
+    padding: 0 5px 0;
+
+    text-align: center;
+
+    background: rgba( 37,87,119, .5);
+}
+.photo-nav
+{
+    transition: 1s;
+}
+
+.nav ul
+{
+    list-style: none;
+}
+
+.nav ul li
+{
+    display: inline-block;
+
+    width: 84px;
+
+    text-align: center;
+}
+.nav ul li a:hover
+{
+    color: #19005b;
+}
+
+.nav ul li a
+{
+    line-height: 60px;
+
+    width: 100%;
+
+    text-decoration: none;
+
+    color: #dae1e4;
+}
+
+h1,
+.slides
+{
+    margin: 40px 0 10px;
+
+    text-align: center;
+
+    color: white;
+}
+
+.slides
+{
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+    border-radius: 10px;
+    background: rgba(87,128,143,.3);
+}
+p
+{
+    text-align: center;
+
+    color: #777;
+}
+a
+{
+    text-decoration: none;
+}
+
+.greeting
+{
+    font-size: 24px;
+
+    width: 440px;
+    margin: 300px auto;
+    padding: 40px 20px;
+
+    text-align: center;
+
+    border-radius: 5px;
+    background: #1d3c6a;
+}
+
+.greeting span
+{
+    color: #dae1e4;
+}
+
+.bio,
+.contact
+{
+    font-size: 24px;
+    font-weight: bold;
+
+    overflow: hidden;
+
+    width: 100%;
+    margin: 300px auto;
+    padding: 20px 20px;
+
+    text-align: center;
+
+    color: #dae1e4;
+}
+
+.imageGallery
+{
+    display: block;
+
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.imageGallery li
+{
+    display: inline-block;
+
+    margin: 10px;
+    padding: 2px;
+
+    background: white;
+}
+
+.imageGallery img
+{
+    display: block;
+}
+
+.imageGallery a
+{
+    text-decoration: none;
+}
+
+select
+{
+    width: 80%;
+    margin-top: 5%;
+}
+
+@media (min-width: 320px) and (max-width: 586px)
+{
+    .nav ul
+    {
+        display: none;
+    }
+}
+
+@media (min-width: 586px)
+{
+    select
+    {
+        display: none;
+    }
+}
+
+.website
+{
+    background: #003b58;
+}
+
+#overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+
+    background: rgba(0,0,0,.7);
+}
+
+#overlay img
+{
+    margin-top: 10%;
+    padding: 5px;
+
+    background: white;
+}
+
+#icons
+{
+    height: 40px;
+    margin-top: 10%;
+    padding: 5px 5px 0;
+
+    text-align: center;
+}
+
+.contact-icons li
+{
+    display: inline-block;
+
+    margin: 10px;
+    padding: 2px;
+}
+.contact-icons img
+{
+    border-radius: 15pt;
+    background: rgba(37,87,119, .7);
+}
+
+.slick-dots
+{
+    bottom: 5px;
+}
+.slick-dots li button:before
+{
+    font-size: 30px;
+
+    content: '*';
+
+    color: gray;
+}
+
+.slick-dots li.slick-active button:before
+{
+    color: white;
+}
+
+.photo-slides
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    background: rgba(0,0,0,.5);
+}
+
+/*.photo-slides{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.photo-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.photo-slide img {
+  width: 50%;
+  margin: 100px 50% 100px 10%;
+}
+.avatar {
+  width: 50%;
+  display: block;
+  margin: 0 25%;
+}*/
+
+.avatar
+{
+    display: inline-block;
+
+    margin: 0 auto;
+    padding: 10px;
+    /*  background: rgba(250,250,250,0.7);
+  border-radius: 10px;*/
+}
+.main-content,
+.footer-inner
+{
+    position: relative;
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.slick-prev:before,
+.slick-next:before
+{
+    font-size: 60px;
+}
+
+
+.slick-next
+{
+    z-index: 999;
+    right: 55px;
+}
+
+.slick-prev
+{
+    z-index: 999;
+    left: 50px;
+}
