@@ -3,7 +3,7 @@
 $(".greeting span").hide();
 $(".nav").hide();
 //Include button
-$(".greeting").append("<button class='enter'>Click Me :)</button>");
+$(".greeting").append("<button class='enter'>enter</button>");
 //When button is pressed
 $("button").click(function(){
 	//Reveal message
