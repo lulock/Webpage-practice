@@ -130,7 +130,9 @@ a
 
 .greeting span
 {
-    color: rgba(255, 117, 165, 0.3);
+        background: rgba(255, 117, 165, 0.3);
+
+    color: #dae1e4;
 }
 
 .bio,
