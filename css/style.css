@@ -35,7 +35,7 @@ body
     border: none;
     border-radius: 5px;
     outline: none;
-    background: #c0c0c0;
+    background: rgba(255, 117, 165, 0.3);
 }
 
 .nav
@@ -123,15 +123,12 @@ a
     text-align: center;
 
     border-radius: 5px;
-    background: rgba(255, 117, 165);
     background: rgba(255, 117, 165, 0.3);
 
 }
 
 .greeting span
 {
-        background: rgba(255, 117, 165, 0.3);
-
     color: #dae1e4;
 }
 
